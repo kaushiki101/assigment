@@ -1,0 +1,28 @@
+.SubHeader {
+  background: #112c41;
+  display: flex;
+  padding: 1rem 0;
+  justify-content: space-around;
+  color: white;
+}
+
+.SubHeader .item {
+  border-left: 1px solid black;
+  padding: 0 4rem;
+  flex: 1;
+}
+
+.SubHeader .content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.SubHeader__headline {
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  font-size: 19px;
+}

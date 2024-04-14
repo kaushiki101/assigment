@@ -1,0 +1,33 @@
+.Testimonial {
+  background: #112c41;
+  width: 100%;
+  color: white;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Testimonial .arrow-container {
+  position: absolute;
+  display: flex;
+  right: 10%;
+  bottom: 10%;
+  gap: 10px;
+}
+
+.Testimonial .item {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  height: 400px;
+  padding: 60px 60px;
+}
+.item_content {
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+  font-size: 17px;
+}

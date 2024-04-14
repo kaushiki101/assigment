@@ -1,0 +1,14 @@
+.RightArrow {
+    border: 1px solid white;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.RightArrow:hover{
+    background: rgba(255, 255, 255, 0.2);
+}

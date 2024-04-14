@@ -1,0 +1,47 @@
+.SectionB {
+  display: flex;
+  background: #112c41;
+  width: 100%;
+  color: white;
+  flex-direction: column;
+}
+
+.SectionB .container {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.SectionB .container .left {
+  font-family: "Oswald";
+  font-size: 45px;
+  font-weight: 200;
+  line-height: 89.6px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  width: 500px;
+  margin-right: 140px;
+}
+
+.SectionB .container .left span {
+  color: #f36f2b;
+  font-size: 45px;
+  font-weight: 200;
+  line-height: 89.6px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  width: 400px;
+}
+
+.SectionB .container .right {
+  font-size: small;
+  width: 40%;
+  font-family: "Inter";
+  font-weight: 100px;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.SectionB .container .below {
+  font-size: 18px;
+  margin-top: 45px;
+}

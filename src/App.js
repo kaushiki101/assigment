@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Banner from "./components/banner";
+import CarouselBlock from "./components/carousel";
+import Header from "./components/header";
+import SectionA from "./components/section-a";
+import SectionB from "./components/section-b";
+import SubHeader from "./components/sub-header";
+import { Testimonial } from "./components/testimonial";
+import SectionC from "./components/section-c";
+import SectionD from "./components/section-d";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <main>
+        <Banner />
+        <Header />
+        <CarouselBlock />
+      </main>
+      <SubHeader />
+      <SectionA />
+      <SectionB />
+      <SectionC />
+      <Testimonial />
+      <SectionD />
+    </>
   );
 }
 

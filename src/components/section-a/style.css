@@ -1,0 +1,85 @@
+.SectionA {
+  display: flex;
+  height: 100vh;
+  background: white;
+  width: 100%;
+}
+
+.SectionA .right {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  background: black;
+  user-select: none;
+}
+
+.SectionA .right img {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.SectionA .right .arrow-container {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
+  gap: 10px;
+}
+
+.SectionA .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  margin-top: 40px;
+}
+
+.SectionA .title {
+  text-align: left;
+  align-self: flex-start;
+  margin-left: 2rem;
+  font-family: "Oswald";
+  font-size: 54px;
+  font-weight: 200px;
+}
+
+.SectionA .title span {
+  color: #f36f2b;
+  font-family: "Oswald";
+  font-size: 54px;
+  font-weight: 200px;
+}
+
+.SectionA .left .accordion {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 80%;
+}
+
+.SectionA .left .accordion .accordion_title {
+  font-weight: 900px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.SectionA .left .accordion .accordion_content {
+  line-height: 18px;
+  font-size: small;
+  overflow: hidden;
+}
+.SectionA.accordion {
+  font-family: "Inter";
+
+  font-weight: 500px;
+  font-size: 20px;
+}
